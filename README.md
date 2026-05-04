@@ -113,15 +113,25 @@
 
 ## 🚀 Featured Projects
 
+### 🏆 Flagship Project
+
+> **[☸️ microservices-k8s-platform](https://github.com/shivam74826/microservices-k8s-platform)** — Production deployment of **19 microservices** on a self-managed Kubernetes cluster (Hetzner Cloud). Full CI/CD, Ingress with TLS, HPA auto-scaling, Prometheus+Grafana monitoring, EFK logging, and a scripted deploy pipeline covering all services in dependency order.
+>
+> `Kubernetes` `Helm` `Jenkins` `Docker` `Terraform` `Prometheus` `Grafana` `EFK` `Hetzner`
+>
+> **37 pods** · **3 namespaces** · **19 services** · **8 HPAs** · **P99 latency < 120ms**
+
+---
+
 | Project | Description | Stack | Impact |
 |---|---|---|---|
-| [🏗️ k8s-hetzner-cluster-setup](https://github.com/shivam74826/k8s-hetzner-cluster-setup) | Production K8s cluster on Hetzner with Terraform + kubeadm | `Terraform` `Ansible` `K8s` | Full infra from 0 → running cluster |
+| [☸️ microservices-k8s-platform](https://github.com/shivam74826/microservices-k8s-platform) | **19 microservices** on K8s: API Gateway, Auth, Orders, Payments, Notifications + 14 more | `K8s` `Helm` `Jenkins` `Docker` | 37 pods, zero downtime |
+| [🏗️ k8s-hetzner-cluster-setup](https://github.com/shivam74826/k8s-hetzner-cluster-setup) | Production K8s cluster on Hetzner with Terraform + kubeadm + Ansible | `Terraform` `Ansible` `K8s` | Cluster from 0 → running |
 | [🔧 jenkins-k8s-cicd-pipeline](https://github.com/shivam74826/jenkins-k8s-cicd-pipeline) | CI/CD: build → Trivy scan → Dockerise → Helm deploy → auto rollback | `Jenkins` `Docker` `Helm` `K8s` | Zero-downtime deployments |
 | [📊 wordpress-grafana-monitoring](https://github.com/shivam74826/wordpress-grafana-monitoring) | WordPress on K8s with Prometheus + custom Grafana dashboards | `K8s` `Prometheus` `Grafana` | Full observability stack |
 | [📝 efk-k8s-logging-stack](https://github.com/shivam74826/efk-k8s-logging-stack) | Centralised log aggregation across microservices | `Elasticsearch` `Fluentd` `Kibana` | 10+ services unified |
 | [🛒 odoo-k8s-deployment](https://github.com/shivam74826/odoo-k8s-deployment) | Odoo ERP on Kubernetes with PostgreSQL + NFS persistent storage | `K8s` `Helm` `PostgreSQL` | Production ERP on K8s |
 | [🏗️ Terraform](https://github.com/shivam74826/Terraform) | AWS infra modules: VPC, EC2, S3 backend, DynamoDB state lock | `Terraform` `AWS` `HCL` | Reusable IaC modules |
-| [⚙️ devops-scripts](https://github.com/shivam74826/devops-scripts) | Automation: backups, SSL renewal, log rotation, autoscaling alerts | `Bash` `Python` `Ansible` | 5+ hrs/week saved |
 | [🐳 Docker](https://github.com/shivam74826/Docker) | Multi-stage Dockerfiles, docker-compose full stack, security hardening | `Docker` `Compose` | 60-70% smaller images |
 
 ---
@@ -143,6 +153,7 @@
 
 | Achievement | Impact |
 |---|---|
+| ☸️ **19 microservices deployed to K8s** | 37 pods, 3 namespaces, HPA auto-scaling, full observability |
 | ⚡ 40% CI/CD pipeline speed improvement | Yocto build: 4h → 2.5h; faster sprint velocity |
 | 🎯 Zero failed production deployments | Gated releases + Helm rollback strategy |
 | 🚨 Production K8s outage recovered | Full restore in under **8 minutes** |
